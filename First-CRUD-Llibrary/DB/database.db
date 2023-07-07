@@ -1,0 +1,12 @@
+CREATE DATABASE library;
+
+use library; 
+
+create table books (
+	id int not null auto_increment primary key,
+    Name varchar(255) not null,
+	Desccription varchar(255) not null,
+	Data datetime not null,
+	Creator varchar(255) not null
+);
+
